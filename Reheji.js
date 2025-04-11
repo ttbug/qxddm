@@ -51,6 +51,7 @@ const bundle = {
 };
 
 const listua = {
+  'Loopsie': { name: 'pro-iOS', id: 'com.gamelounge.loopsie.ios.one_time', cm: 'sjb' },  //Loopsie
   'StockPlus': { name: 'Premium', id: 'stocks_lifetime_premium', cm: 'sjb' },  //Stock+股票图表
   'StudyAI': { name: 'premium_access', id: 'Lifetime_PRO', cm: 'sjb' },  //StudyAI-智能题解AI
   'PhotoVault': { name: 'lifetime', id: 'photovault.lifetime', cm: 'sjc' },  //iSafe-私密相册管家
