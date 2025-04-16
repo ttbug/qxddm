@@ -51,6 +51,8 @@ const bundle = {
 };
 
 const listua = {
+  'easy_chart': { name: 'unlock all', id: 'qgnjs_lifetime', cm: 'sjb' },  //快制图表
+  'Snipd': { name: 'premium', id: 'snipd_premium_1y_7199_trial_2w_v2', cm: 'sja' },  //Snipd播客
   'Loopsie': { name: 'pro-iOS', id: 'com.gamelounge.loopsie.ios.one_time', cm: 'sjb' },  //Loopsie
   'StockPlus': { name: 'Premium', id: 'stocks_lifetime_premium', cm: 'sjb' },  //Stock+股票图表
   'StudyAI': { name: 'premium_access', id: 'Lifetime_PRO', cm: 'sjb' },  //StudyAI-智能题解AI
