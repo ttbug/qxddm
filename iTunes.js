@@ -35,7 +35,7 @@ if (forbiddenApps.some(app => (ua && ua.includes(app)) || ($request.body && $req
 }
 
 const list = {
-  'com.digitalworkroom.noted': {cm: 'timea', hx: 'hxpda', id: "com.digitalworkroom.noted.plus.lifetime", latest: "ddm1023"},
+  'com.digitalworkroom.noted': {cm: 'timea', hx: 'hxpda', id: "com.digitalworkroom.noted.plus.year", latest: "ddm1023"},
   'Presets': { cm: 'timea', hx: 'hxpda', id: "com.chromatech.chroma.yearlyAutoRenewable", latest: "ddm1023" },  //Presets:照片处理、图像编辑器
   'GoodTask': { cm: 'timeb', hx: 'hxpda', id: "com.hahainteractive.goodtask3.pro", latest: "ddm1023" },  //代办事项清单-GoodTask
   'com.hanchongzan.period': { cm: 'timeb', hx: 'hxpda', id: "com.hanchongzan.period.frog", latest: "ddm1023" },  //姨妈来咯
