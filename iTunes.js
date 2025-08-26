@@ -35,6 +35,7 @@ if (forbiddenApps.some(app => (ua && ua.includes(app)) || (bundle_id && bundle_i
 }
 
 const list = {
+  'com.polygitapp.polygit':{ cm: 'polygit',hx: 'hxpda', id: 'com.polygitapp.polygit.pro.yearly'},
   'PhotosPK': { cm: 'timeb', hx: 'hxpda', id: "indie.davidwang.PicPicks.membership.lifetime" },  //PicPicks-AI智能照片整理
   'com.digitalworkroom.noted': {cm: 'timea', hx: 'hxpda', id: "com.digitalworkroom.noted.plus.year", latest: "ddm1023"},
   'Presets': { cm: 'timea', hx: 'hxpda', id: "com.chromatech.chroma.yearlyAutoRenewable", latest: "ddm1023" },  //Presets:照片处理、图像编辑器
