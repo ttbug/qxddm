@@ -28,7 +28,7 @@ const yearlyid = `${bundle_id}.yearly`;
 const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
-const forbiddenApps = ['com.risingcabbage.pro.camera'];
+const forbiddenApps = ['LivePhoto','com.risingcabbage.pro.camera'];
 if (forbiddenApps.some(app => (ua && ua.includes(app)) || (bundle_id && bundle_id.includes(app))  || ($request.body && $request.body.includes(app)))) {
   console.log("⛔️检测到禁止 MITM 的 APP，脚本停止运行！");
   $done({});
