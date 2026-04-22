@@ -51,7 +51,6 @@ const bundle = {
 };
 
 const listua = {
-  const listua = {
   'kiddztube': { name: 'Subscriber', id: 'kidsbeetv.lifetime.subscription.ios', cm: 'sjc' },  //KidsBeeTV 少儿英语启蒙动画
   'Lightune': { name: 'pro', id: 'Lightune_Pro_Year', cm: 'sja' },  //Lightune - AI专业修图
   'easy_chart': { name: 'unlock all', id: 'qgnjs_lifetime', cm: 'sjb' },  //快制图表
